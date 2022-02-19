@@ -1,0 +1,51 @@
+body{
+    font-size: 13px;
+    background-color:hsl(210, 46%, 95%);
+}
+
+h2{
+
+}
+
+p{
+
+}
+
+.main-container{
+    background-color: lightpink;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
