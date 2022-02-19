@@ -1,23 +1,142 @@
 body{
     font-size: 13px;
     background-color:hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: white;
 }
 
 h2{
 
 }
 
-p{
+img{
+    width: 36px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+p, h4{
+    color: rgb(207, 207, 207);
 
 }
+
 
 .main-container{
-    background-color: lightpink;
-    width: 80%;
+    width: 90%;
     height: auto;
     margin: auto;
+    margin-top: 50px;
+
 }
 
+.cluster-one{
+}
+
+.testimonial-item{
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+.card-info{
+    display: inline-block;
+    position: relative;
+    bottom: 7px;
+}
+
+.card-info h4 {
+    margin: 0;
+    font-size: medium;
+    
+}
+
+.card-info p{
+    margin: 0;
+    font-size: small;
+    color: rgba(207, 207, 207,50%);
+}
+
+.review-text{
+    color: rgba(207, 207, 207,70%);
+    font-size: medium;
+
+}
+
+.person-one{
+    background-color: hsl(263, 55%, 52%);
+}
+.person-one img{
+    border: 2px solid hsl(263, 63%, 69%);
+}
+
+
+.person-two{
+    background-color: hsl(217, 19%, 35%);
+}
+.person-two img{
+    border: 2px solid hsl(0, 0%, 64%);
+}
+
+
+.person-three{
+    background-color: white; 
+}
+.person-three h2{
+    color: hsl(217, 19%, 35%) !important;
+
+}
+.person-three .review-text{
+    color: rgba(210, 210, 210,100%);
+
+}
+.person-three .card-info h4{
+    color: hsl(217, 19%, 35%) !important;
+}
+.person-three .card-info p{
+    color: rgba(207, 207, 207,90%) !important;
+
+}
+
+
+.person-four{
+    background-color: hsl(219, 29%, 14%);
+}
+.person-four img{
+    border: 2px solid hsl(263, 55%, 52%);
+}
+
+
+.person-five{
+    background-color: white;
+}
+.person-five .card-info h4{
+    color: hsl(217, 19%, 35%) !important;
+}
+.person-five .card-info p{
+    color: rgba(207, 207, 207,90%) !important;
+}
+.person-five .review-text{
+    color: rgba(210, 210, 210,100%);
+
+}
+.person-five h2{
+    color: hsl(217, 19%, 35%) !important;
+}
+
+/* @media only screen and (min-width: 600px){
+    .main-container{
+        display: flex;
+    }
+    .cluster-one{
+        display: flex;
+        width: 100%;
+    }
+    .cluster-two{
+        display: flex;
+    }
+
+} */
 
 
 
