@@ -7,6 +7,7 @@ body{
 
 h2{
 
+
 }
 
 img{
@@ -17,13 +18,11 @@ img{
 
 p, h4{
     color: rgb(207, 207, 207);
-
 }
 
 
 .main-container{
     width: 90%;
-    height: auto;
     margin: auto;
     margin-top: 50px;
 
@@ -60,7 +59,6 @@ p, h4{
 .review-text{
     color: rgba(207, 207, 207,70%);
     font-size: medium;
-
 }
 
 .person-one{
@@ -124,19 +122,29 @@ p, h4{
     color: hsl(217, 19%, 35%) !important;
 }
 
-/* @media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px){
     .main-container{
         display: flex;
+        width: 90%;
+        margin-top: 100px;
     }
     .cluster-one{
         display: flex;
-        width: 100%;
     }
     .cluster-two{
         display: flex;
     }
+    .person-five{
+        /* width: 324px; */
+    }
+    .person-one, .person-four{
+        width: 65%;
+    }
+    .person-two, .person-three{
+        width: 30%;
+    }
 
-} */
+}
 
 
 
