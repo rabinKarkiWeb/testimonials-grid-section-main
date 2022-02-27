@@ -5,9 +5,6 @@ body {
   color: white;
 }
 
-h2 {
-}
-
 img {
   width: 36px;
   border-radius: 30px;
@@ -23,9 +20,6 @@ h4 {
   width: 80%;
   margin: auto;
   margin-top: 50px;
-}
-
-.cluster-one {
 }
 
 .testimonial-item {
@@ -116,8 +110,6 @@ h4 {
     flex-wrap: nowrap;
 
     margin-top: 80px;
-  }
-  .main-cluster {
   }
   .cluster-one {
     display: flex;
