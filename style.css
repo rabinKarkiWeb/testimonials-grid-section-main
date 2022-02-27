@@ -1,178 +1,149 @@
-body{
-    font-size: 13px;
-    background-color:hsl(210, 46%, 95%);
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    color: white;
+body {
+  font-size: 13px;
+  background-color: hsl(210, 46%, 95%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: white;
 }
 
-h2{
-
-
+h2 {
 }
 
-img{
-    width: 36px;
-    border-radius: 30px;
-    margin-right: 20px;
+img {
+  width: 36px;
+  border-radius: 30px;
+  margin-right: 20px;
 }
 
-p, h4{
-    color: rgb(207, 207, 207);
+p,
+h4 {
+  color: rgb(207, 207, 207);
 }
 
-
-.main-container{
-    width: 90%;
-    margin: auto;
-    margin-top: 50px;
-
+.main-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
 }
 
-.cluster-one{
+.cluster-one {
 }
 
-.testimonial-item{
-    padding: 30px;
-    border-radius: 10px;
-    margin: 20px;
-
+.testimonial-item {
+  padding: 30px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  margin: 20px;
 }
 
-.card-info{
-    display: inline-block;
-    position: relative;
-    bottom: 7px;
+.card-info {
+  display: inline-block;
+  position: relative;
+  bottom: 7px;
 }
 
 .card-info h4 {
-    margin: 0;
-    font-size: medium;
-    
+  margin: 0;
+  font-size: small;
 }
 
-.card-info p{
-    margin: 0;
-    font-size: small;
-    color: rgba(207, 207, 207,50%);
+.card-info p {
+  margin: 0;
+  font-size: smaller;
+  color: rgba(207, 207, 207, 50%);
 }
 
-.review-text{
-    color: rgba(207, 207, 207,70%);
-    font-size: medium;
+.review-text {
+  color: rgba(207, 207, 207, 70%);
+  font-size: small;
 }
 
-.person-one{
-    background-color: hsl(263, 55%, 52%);
+.person-one {
+  background-color: hsl(263, 55%, 52%);
 }
-.person-one img{
-    border: 2px solid hsl(263, 63%, 69%);
-}
-
-
-.person-two{
-    background-color: hsl(217, 19%, 35%);
-}
-.person-two img{
-    border: 2px solid hsl(0, 0%, 64%);
+.person-one img {
+  border: 2px solid hsl(263, 63%, 69%);
 }
 
-
-.person-three{
-    background-color: white; 
+.person-two {
+  background-color: hsl(217, 19%, 35%);
 }
-.person-three h2{
-    color: hsl(217, 19%, 35%) !important;
-
-}
-.person-three .review-text{
-    color: rgba(210, 210, 210,100%);
-
-}
-.person-three .card-info h4{
-    color: hsl(217, 19%, 35%) !important;
-}
-.person-three .card-info p{
-    color: rgba(207, 207, 207,90%) !important;
-
+.person-two img {
+  border: 2px solid hsl(0, 0%, 64%);
 }
 
-
-.person-four{
-    background-color: hsl(219, 29%, 14%);
+.person-three {
+  background-color: white;
 }
-.person-four img{
-    border: 2px solid hsl(263, 55%, 52%);
+.person-three h3 {
+  color: hsl(217, 19%, 35%) !important;
 }
-
-
-.person-five{
-    background-color: white;
+.person-three .review-text {
+  color: rgba(210, 210, 210, 100%);
 }
-.person-five .card-info h4{
-    color: hsl(217, 19%, 35%) !important;
+.person-three .card-info h4 {
+  color: hsl(217, 19%, 35%) !important;
 }
-.person-five .card-info p{
-    color: rgba(207, 207, 207,90%) !important;
-}
-.person-five .review-text{
-    color: rgba(210, 210, 210,100%);
-
-}
-.person-five h2{
-    color: hsl(217, 19%, 35%) !important;
+.person-three .card-info p {
+  color: rgba(207, 207, 207, 90%) !important;
 }
 
-@media only screen and (min-width: 600px){
-    .main-container{
-        display: flex;
-        width: 90%;
-        margin-top: 100px;
-    }
-    .cluster-one{
-        display: flex;
-    }
-    .cluster-two{
-        display: flex;
-    }
-    .person-five{
-        /* width: 324px; */
-    }
-    .person-one, .person-four{
-        width: 65%;
-    }
-    .person-two, .person-three{
-        width: 30%;
-    }
-
+.person-four {
+  background-color: hsl(219, 29%, 14%);
+}
+.person-four img {
+  border: 2px solid hsl(263, 55%, 52%);
 }
 
+.person-five {
+  background-color: white;
+}
+.person-five .card-info h4 {
+  color: hsl(217, 19%, 35%) !important;
+}
+.person-five .card-info p {
+  color: rgba(207, 207, 207, 90%) !important;
+}
+.person-five .review-text {
+  color: rgba(210, 210, 210, 100%);
+}
+.person-five h3 {
+  color: hsl(217, 19%, 35%) !important;
+}
 
+@media only screen and (min-width: 1280px) {
+  .main-container {
+    display: flex;
+    flex-wrap: nowrap;
 
+    margin-top: 80px;
+  }
+  .main-cluster {
+  }
+  .cluster-one {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .cluster-two {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .person-five {
+    max-width: 23%;
+  }
+  .person-one,
+  .person-four {
+    width: 65%;
+  }
+  .person-two,
+  .person-three {
+    width: 30%;
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
